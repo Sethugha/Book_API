@@ -8,5 +8,15 @@
         "id": 2,
         "title": "1984",
         "author": "George Orwell"
+    },
+    {
+        "title": "Ein Jäger aus Kurpfalz",
+        "author": "Friedrich Fröhn",
+        "id": 3
+    },
+    {
+        "title": "The Iron Heel",
+        "author": "Jack London",
+        "id": 4
     }
 ]

@@ -5,9 +5,26 @@ app = Flask(__name__)
 
 
 @app.route('/api/books', methods=['GET'])
-def get_books():
-    # For now, we'll return a static list
+def handle_books():
     books = storage.load_json("data.json")
+    author = request.args.get('author')
+    title = request.args.get('title')
+    if author:
+        collection = [book for book in books if book.get('author') == author]
+        return jsonify(collection)
+
+    if title:
+        collection = [book for book in books if book.get('title') == title]
+        return jsonify(collection)
+
+    page = int(request.args.get('page', 1))
+    limit = int(request.args.get('limit', 10))
+    if page and limit:
+        start_index = (page - 1) * limit
+        end_index = start_index + limit
+        paginated_books = books[start_index:end_index]
+        return jsonify(paginated_books)
+
     return jsonify(books)
 
 @app.route('/api/books', methods=['GET', 'POST'])
@@ -23,6 +40,8 @@ def books():
         # For now, we'll just return the data the user sent
         # Later, we'll add code to save the new book in our data storage
         new_book = request.get_json()
+        if not validate_book_data(new_book):
+            return jsonify({"error": "Invalid book data"}), 400
         storage.add_book(new_book)
         return jsonify(new_book), 201
 
@@ -57,6 +76,29 @@ def delete_book(id):
 
     # Return the deleted book
     return jsonify(deleted_book)
+
+
+@app.errorhandler(404)
+def not_found_error(error):
+    return jsonify({"error": "Book Not Found or Wrong Url"}), 404
+
+
+@app.errorhandler(405)
+def method_not_allowed_error(error):
+    return jsonify({"error": "Method Not Allowed"}), 405
+
+
+@app.errorhandler(400)
+def bad_request(error):
+    return jsonify({"error": "Request is in bad shape. Missing some field data?"}), 400
+
+
+def validate_book_data(data):
+    if "title" not in data or "author" not in data:
+        return False
+    return True
+
+
 
 
 if __name__ == "__main__":
