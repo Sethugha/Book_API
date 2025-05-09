@@ -1,0 +1,17 @@
+2025-05-09 16:58:06 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.102:5000
+2025-05-09 16:58:06 INFO: [33mPress CTRL+C to quit[0m
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=1&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=2&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=3&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=4&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=5&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=6&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=7&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=8&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=9&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "GET /api/books?page=1&limit=5 HTTP/1.1" 200 -
+2025-05-09 16:58:08 INFO: ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: handle_books
+2025-05-09 16:58:08 INFO: 127.0.0.1 - - [09/May/2025 16:58:08] "[31m[1mGET /api/books?page=2&limit=5 HTTP/1.1[0m" 429 -

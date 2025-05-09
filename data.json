@@ -18,5 +18,485 @@
         "title": "The Iron Heel",
         "author": "Jack London",
         "id": 4
+    },
+    {
+        "title": "The Crow Cycle 1",
+        "author": "Dem Mikhailov",
+        "id": 5
+    },
+    {
+        "title": "The Crow Cycle 2",
+        "author": "Dem Mikhailov",
+        "id": 6
+    },
+    {
+        "title": "The Crow Cycle 3",
+        "author": "Dem Mikhailov",
+        "id": 7
+    },
+    {
+        "title": "The Crow Cycle 4",
+        "author": "Dem Mikhailov",
+        "id": 8
+    },
+    {
+        "title": "Dungeon Diving 101",
+        "author": "Bruce Sentar",
+        "id": 9
+    },
+    {
+        "title": "Dungeon Diving 102",
+        "author": "Bruce Sentar",
+        "id": 10
+    },
+    {
+        "title": "Dungeon Diving 103",
+        "author": "Bruce Sentar",
+        "id": 11
+    },
+    {
+        "title": "Dungeon Diving 104",
+        "author": "Bruce Sentar",
+        "id": 12
+    },
+    {
+        "title": "Dungeon Diving 201",
+        "author": "Bruce Sentar",
+        "id": 13
+    },
+    {
+        "title": "Dungeon Diving 202",
+        "author": "Bruce Sentar",
+        "id": 14
+    },
+    {
+        "title": "Dungeon Diving 203",
+        "author": "Bruce Sentar",
+        "id": 15
+    },
+    {
+        "title": "Dungeon Diving 204",
+        "author": "Bruce Sentar",
+        "id": 16
+    },
+    {
+        "title": "Der Alchemist",
+        "author": "Roman Romanovic",
+        "id": 17
+    },
+    {
+        "title": "Under a Graveyard Sky",
+        "author": "John Ringo",
+        "id": 18
+    },
+    {
+        "title": "The Battle Beyond",
+        "author": "R. L. Giddings",
+        "id": 19
+    },
+    {
+        "title": "Nullform",
+        "author": "Dem Mikhailov",
+        "id": 20
+    },
+    {
+        "title": "Another Stupid Spell",
+        "author": "Bill Ricardi",
+        "id": 21
+    },
+    {
+        "title": "Oasis",
+        "author": "Dima Zales",
+        "id": 22
+    },
+    {
+        "title": "Viridian Gate Online",
+        "author": "J. A. Hunger",
+        "id": 23
+    },
+    {
+        "title": "The God of Gnomes",
+        "author": "Demi Harper",
+        "id": 24
+    },
+    {
+        "title": "Riddick: Ghosts of Furia",
+        "author": "Angela B. M. Guajardo",
+        "id": 25
+    },
+    {
+        "title": "Ten Realms: The Fourth Realm",
+        "author": "Michael Chatfield",
+        "id": 26
+    },
+    {
+        "title": "Ten Realms: The First Realm",
+        "author": "Michael Chatfield",
+        "id": 27
+    },
+    {
+        "title": "Ten Realms: The Second Realm",
+        "author": "Michael Chatfield",
+        "id": 28
+    },
+    {
+        "title": "Ten Realms: The Third Realm",
+        "author": "Michael Chatfield",
+        "id": 29
+    },
+    {
+        "title": "Doors",
+        "author": "Markus Heitz",
+        "id": 30
+    },
+    {
+        "title": "Jethro Goes to War",
+        "author": "Chris Hechtl",
+        "id": 31
+    },
+    {
+        "title": "Enemy of my Enemy",
+        "author": "Chris Hechtl",
+        "id": 32
+    },
+    {
+        "title": "Afraid of the Dark",
+        "author": "Chris 'Jekyll' Hechtl",
+        "id": 33
+    },
+    {
+        "title": "Der Stern der Pandora",
+        "author": "Peter F. Hamilton",
+        "id": 34
+    },
+    {
+        "title": "Warship",
+        "author": "Joshua Daizelle",
+        "id": 35
+    },
+    {
+        "title": "New Dawn",
+        "author": "Chris Hechtl",
+        "id": 36
+    },
+    {
+        "title": "One Year After",
+        "author": "William R. Forstchen",
+        "id": 37
+    },
+    {
+        "title": "One Second After",
+        "author": "William R. Forstchen",
+        "id": 38
+    },
+    {
+        "title": "Shadow´s Rise",
+        "author": "Joseph J. Bailey",
+        "id": 39
+    },
+    {
+        "title": "Squids",
+        "author": "Leo Aldon",
+        "id": 40
+    },
+    {
+        "title": "Transport",
+        "author": "Phillip P. Peterson",
+        "id": 41
+    },
+    {
+        "title": "Ark Royal",
+        "author": "Christopher G. Nuttall",
+        "id": 42
+    },
+    {
+        "title": "First Strike",
+        "author": "Christopher G. Nuttall",
+        "id": 43
+    },
+    {
+        "title": "Shadow of Freedom",
+        "author": "David Weber",
+        "id": 44
+    },
+    {
+        "title": "Basilisk Station",
+        "author": "David Weber",
+        "id": 45
+    },
+    {
+        "title": "Empire of Man",
+        "author": "David Weber, John Ringo",
+        "id": 46
+    },
+    {
+        "title": "Legacy of the Aldenata",
+        "author": "John Ringo",
+        "id": 47
+    },
+    {
+        "title": "Invasion",
+        "author": "John Ringo, Julie Cochrane",
+        "id": 48
+    },
+    {
+        "title": "There will be Dragons",
+        "author": "John Ringo",
+        "id": 49
+    },
+    {
+        "title": "A Hymn before Battle",
+        "author": "John Ringo",
+        "id": 50
+    },
+    {
+        "title": "Danach: Der Schock",
+        "author": "Scott Nicholson",
+        "id": 51
+    },
+    {
+        "title": "Danach: Morgengrauen",
+        "author": "Scott Nicholson",
+        "id": 52
+    },
+    {
+        "title": "Asche zu Asche",
+        "author": "Scott Nicholson, Joshua Simcox",
+        "id": 53
+    },
+    {
+        "title": "Wayward",
+        "author": "Blake Crouch",
+        "id": 54
+    },
+    {
+        "title": "Das Vierte Siegel",
+        "author": "Liane Sons",
+        "id": 55
+    },
+    {
+        "title": "Unseen Academicals",
+        "author": "Terry Pratchett",
+        "id": 56
+    },
+    {
+        "title": "A Desert Called Peace",
+        "author": "Tom Kratman",
+        "id": 57
+    },
+    {
+        "title": "Caliphate",
+        "author": "Tom Kratman",
+        "id": 58
+    },
+    {
+        "title": "The Walk",
+        "author": "Lee Goldberg",
+        "id": 59
+    },
+    {
+        "title": "Das Auge der Wüste",
+        "author": "Richard Schwartz",
+        "id": 60
+    },
+    {
+        "title": "Gauntlgrym",
+        "author": "R. A. Salvatore",
+        "id": 61
+    },
+    {
+        "title": "Die Tribute von Panem: Tödliche Spiele",
+        "author": "Suzanne Collins",
+        "id": 62
+    },
+    {
+        "title": "Die Tribute von Panem: Gefährliche Liebe",
+        "author": "Suzanne Collins",
+        "id": 63
+    },
+    {
+        "title": "Die Tribute von Panem: Flammender Zorn",
+        "author": "Suzanne Collins",
+        "id": 64
+    },
+    {
+        "title": "Grippe",
+        "author": "Wayne Simmons",
+        "id": 65
+    },
+    {
+        "title": "The Stand",
+        "author": "Stephen King",
+        "id": 66
+    },
+    {
+        "title": "Todesmarsch",
+        "author": "Richard Bachmann",
+        "id": 67
+    },
+    {
+        "title": "Zombies in New York",
+        "author": "Stephen Knight",
+        "id": 68
+    },
+    {
+        "title": "Seelenhunger",
+        "author": "Alfred Bekker",
+        "id": 69
+    },
+    {
+        "title": "Dunkle Halunken",
+        "author": "Terry Pratchett",
+        "id": 70
+    },
+    {
+        "title": "Return Man",
+        "author": "V. M. Zito",
+        "id": 71
+    },
+    {
+        "title": "Ausradiert",
+        "author": "Andrea Adlon",
+        "id": 72
+    },
+    {
+        "title": "Tagebuch der Apokalypse",
+        "author": "J. L. Bourne",
+        "id": 73
+    },
+    {
+        "title": "Die Probe",
+        "author": "H. J. Anderegg",
+        "id": 74
+    },
+    {
+        "title": "Mr. K",
+        "author": "J. A. Konrath",
+        "id": 75
+    },
+    {
+        "title": "Kite",
+        "author": "J. A. Konrath",
+        "id": 76
+    },
+    {
+        "title": "Die Nanokriege",
+        "author": "John Ringo",
+        "id": 77
+    },
+    {
+        "title": "Truck Stop",
+        "author": "J. A. Konrath",
+        "id": 78
+    },
+    {
+        "title": "Warrior Cats",
+        "author": "Erin Hunter",
+        "id": 79
+    },
+    {
+        "title": "Der Präsident",
+        "author": "David Baldacci",
+        "id": 80
+    },
+    {
+        "title": "Night School",
+        "author": "C. J. Daugherty",
+        "id": 81
+    },
+    {
+        "title": "Tagebücher der Henker von Paris",
+        "author": "Henry Sanson",
+        "id": 82
+    },
+    {
+        "title": "Die denkwürdigen Abenteuer des Arthur Gordon Pym",
+        "author": "Edgar Allan Poe",
+        "id": 83
+    },
+    {
+        "title": "Lausbubengeschichten",
+        "author": "Ludwig Thoma",
+        "id": 84
+    },
+    {
+        "title": "In der Fremdenlegion",
+        "author": "Edwin Rosen",
+        "id": 85
+    },
+    {
+        "title": "Armee hinter Stacheldraht",
+        "author": "Edwin Erich Dwinger",
+        "id": 86
+    },
+    {
+        "title": "Das vergessene Dorf",
+        "author": "Theodor Kröger",
+        "id": 87
+    },
+    {
+        "title": "Utopia",
+        "author": "Thomas Morus",
+        "id": 88
+    },
+    {
+        "title": "The Border",
+        "author": "Alexey Osadchuk",
+        "id": 89
+    },
+    {
+        "title": "Trailer Park Elves",
+        "author": "Michael Dalton, Adam Lance",
+        "id": 90
+    },
+    {
+        "title": "The Calamitous Bob",
+        "author": "Alex Gilbert",
+        "id": 91
+    },
+    {
+        "title": "Evil Overlady",
+        "author": "Alex Gilbert",
+        "id": 92
+    },
+    {
+        "title": "Klonk",
+        "author": "Terry Pratchett",
+        "id": 93
+    },
+    {
+        "title": "Klotz am Bein",
+        "author": "Annabel Chase",
+        "id": 94
+    },
+    {
+        "title": "Kadaver",
+        "author": "Nick Clausen",
+        "id": 95
+    },
+    {
+        "title": "Meat",
+        "author": "Joseph D´Lacey",
+        "id": 96
+    },
+    {
+        "title": "The Shape of Things to Come",
+        "author": "H. G. Wells",
+        "id": 97
+    },
+    {
+        "title": "The World: Trouble in little Tulduroc",
+        "author": "Jason A Cheek",
+        "id": 98
+    },
+    {
+        "title": "House Wolf",
+        "author": "Tom Elliot",
+        "id": 99
+    },
+    {
+        "title": "Chains",
+        "author": "Nicoli Gonnella",
+        "id": 100
     }
 ]

@@ -1,11 +1,19 @@
+import logging
 from flask import Flask, jsonify, request
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
+
 import storage
 
 app = Flask(__name__)
+limiter = Limiter(app=app, key_func=get_remote_address)
 
-
+#configure logging
+logging.basicConfig(filename='log.txt', filemode='w', level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 @app.route('/api/books', methods=['GET'])
+@limiter.limit("10/minute") #Limit to 10 requests per minute
 def handle_books():
+    #app.logger.info('GET request received for /api/books')
     books = storage.load_json("data.json")
     author = request.args.get('author')
     title = request.args.get('title')
